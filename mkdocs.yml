@@ -1,0 +1,48 @@
+# MkDocs config for GitHub Pages doc site
+# See 发布文档指南.md for how to enable Pages and deploy.
+
+site_name: AI Applications & Agents — Learning Notes
+site_description: Structured learning notes on AI apps, LLMs, agents, RAG (content in 简体中文)
+site_url: ''  # Set to e.g. https://YOUR_USERNAME.github.io/YOUR_REPO/ if links break
+use_directory_urls: true
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+docs_dir: '.'
+exclude_docs: |
+  .git
+  .github
+  LICENSE
+
+nav:
+  - 首页: README.md
+  - 学习清单: 学习清单-AI应用与Agent.md
+  - Part 1 - AI 应用基础:
+    - AI 应用概览: AI应用概览.md
+  - Part 2 - LLM 与提示工程:
+    - LLM 与提示工程: LLM与提示工程.md
+  - Part 3 - Agent 核心:
+    - Agent 架构: Agent架构.md
+    - 工具与 Function Calling: 工具与Function-Calling.md
+  - Part 4 - 记忆与检索:
+    - 记忆与 RAG: 记忆与RAG.md
+  - Part 5 - 多 Agent:
+    - 多 Agent 系统: 多Agent系统.md
+  - Part 6 - 工程化:
+    - Agent 工程化: Agent工程化.md
+  - 如何发布本站: 发布文档指南.md
