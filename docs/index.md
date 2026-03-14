@@ -2,6 +2,8 @@
 
 Structured learning notes on AI applications, LLMs, prompt engineering, agents, RAG, and multi-agent systems. Content is in **Chinese (简体中文)**.
 
+[:uk: English](en/index.md) · Use the **Language** dropdown in the top bar to switch.
+
 ## Learning Path
 
 The material is organized in six parts. Start from the checklist and follow the links into each note.
