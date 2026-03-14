@@ -23,14 +23,10 @@ theme:
         icon: material/brightness-4
         name: 切换到浅色模式
 
-docs_dir: '.'
-exclude_docs: |
-  .git
-  .github
-  LICENSE
+docs_dir: docs
 
 nav:
-  - 首页: README.md
+  - 首页: index.md
   - 学习清单: 学习清单-AI应用与Agent.md
   - Part 1 - AI 应用基础:
     - AI 应用概览: AI应用概览.md

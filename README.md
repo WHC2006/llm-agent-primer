@@ -8,14 +8,14 @@ The material is organized in six parts. Start from the checklist and follow the 
 
 | Part | Topic | Main note |
 |------|--------|-----------|
-| 1 | AI application basics (app types, tech stack, when to use tools) | [AI应用概览.md](AI应用概览.md) |
-| 2 | LLM & prompt engineering (capabilities, limits, prompts, context, cost) | [LLM与提示工程.md](LLM与提示工程.md) |
-| 3 | Agent core (ReAct, Plan-and-Execute, tools, Function Calling) | [Agent架构.md](Agent架构.md), [工具与Function-Calling.md](工具与Function-Calling.md) |
-| 4 | Memory & RAG (short/long-term memory, retrieval, multi-turn) | [记忆与RAG.md](记忆与RAG.md) |
-| 5 | Multi-agent systems (roles, coordination, messaging) | [多Agent系统.md](多Agent系统.md) |
-| 6 | Engineering & production (frameworks, evaluation, security, deployment) | [Agent工程化.md](Agent工程化.md) |
+| 1 | AI application basics (app types, tech stack, when to use tools) | [AI应用概览](docs/AI应用概览.md) |
+| 2 | LLM & prompt engineering (capabilities, limits, prompts, context, cost) | [LLM与提示工程](docs/LLM与提示工程.md) |
+| 3 | Agent core (ReAct, Plan-and-Execute, tools, Function Calling) | [Agent架构](docs/Agent架构.md), [工具与Function-Calling](docs/工具与Function-Calling.md) |
+| 4 | Memory & RAG (short/long-term memory, retrieval, multi-turn) | [记忆与RAG](docs/记忆与RAG.md) |
+| 5 | Multi-agent systems (roles, coordination, messaging) | [多Agent系统](docs/多Agent系统.md) |
+| 6 | Engineering & production (frameworks, evaluation, security, deployment) | [Agent工程化](docs/Agent工程化.md) |
 
-**Checklist (syllabus):** [学习清单-AI应用与Agent.md](学习清单-AI应用与Agent.md)
+**Checklist (syllabus):** [学习清单-AI应用与Agent](docs/学习清单-AI应用与Agent.md)
 
 ## How to Use
 
@@ -24,15 +24,21 @@ The material is organized in six parts. Start from the checklist and follow the 
 
 ## File Overview
 
+- **Repo root:** `README.md`, `mkdocs.yml`, and this overview.
+- **Documentation (and doc site source):** All learning notes live in the [`docs/`](docs/) folder. The GitHub Pages site is built from `docs/` via MkDocs.
+
 ```
-学习清单-AI应用与Agent.md   ← Start here (checklist + links)
-AI应用概览.md
-LLM与提示工程.md
-Agent架构.md
-工具与Function-Calling.md
-记忆与RAG.md
-多Agent系统.md
-Agent工程化.md
+docs/
+  index.md          ← Site home (same as README)
+  学习清单-AI应用与Agent.md   ← Start here (checklist + links)
+  AI应用概览.md
+  LLM与提示工程.md
+  Agent架构.md
+  工具与Function-Calling.md
+  记忆与RAG.md
+  多Agent系统.md
+  Agent工程化.md
+  发布文档指南.md
 ```
 
 ## License
