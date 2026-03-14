@@ -1,6 +1,6 @@
 # AI Applications & Agents — Learning Notes
 
-Structured learning notes on AI applications, LLMs, prompt engineering, agents, RAG, and multi-agent systems. Content is in **Chinese (简体中文)**.
+Structured learning notes on AI applications, LLMs, prompt engineering, agents, RAG, and multi-agent systems. **Bilingual:** main content in **Chinese (简体中文)**; [English overview](docs/en/index.md) in `docs/en/`. On the doc site, use the **中文** / **English** links at the top of the sidebar to switch.
 
 ## Learning Path
 
@@ -29,16 +29,17 @@ The material is organized in six parts. Start from the checklist and follow the 
 
 ```
 docs/
-  index.md          ← Site home (same as README)
+  index.md          ← Site home (中文)
   学习清单-AI应用与Agent.md   ← Start here (checklist + links)
   AI应用概览.md
   LLM与提示工程.md
-  Agent架构.md
-  工具与Function-Calling.md
-  记忆与RAG.md
-  多Agent系统.md
-  Agent工程化.md
+  ... (Part 1–6 notes)
   发布文档指南.md
+  en/               ← English
+    index.md        ← English home
+    learning-checklist.md
+    part1-overview.md … part6-engineering.md
+    publish-guide.md
 ```
 
 ## License
