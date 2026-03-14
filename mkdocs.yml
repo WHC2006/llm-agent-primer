@@ -6,15 +6,6 @@ site_description: Structured learning notes on AI apps, LLMs, agents, RAG (中�
 site_url: ''  # Set to e.g. https://YOUR_USERNAME.github.io/YOUR_REPO/ if links break
 use_directory_urls: true
 
-extra:
-  alternate:
-    - name: English
-      link: en/
-      lang: en
-    - name: 中文
-      link: ./
-      lang: zh
-
 theme:
   name: material
   language: zh
@@ -35,7 +26,8 @@ theme:
 docs_dir: docs
 
 nav:
-  - 首页: index.md
+  - 中文: index.md
+  - English: en/index.md
   - 学习清单: 学习清单-AI应用与Agent.md
   - Part 1 - AI 应用基础:
     - AI 应用概览: AI应用概览.md
